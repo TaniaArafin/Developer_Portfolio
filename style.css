@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.green-color {
+    color: green;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 1.5%;
+}
+
+.half-width img {
+    width: 60%;
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#a8392a, #d94430);
+    padding: 10px 40px;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
