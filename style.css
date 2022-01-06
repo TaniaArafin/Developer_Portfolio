@@ -17,7 +17,7 @@ section {
 
 .half-width {
     width: 50%;
-    padding-left: 10%;
+    padding-left: 1.5%;
 }
 
 .half-width img {
@@ -38,47 +38,47 @@ section {
 
 
 .leftpart {
-    width: 25%;
-    min-width: 200px;
-    height: available;
-    min-height: 400px;
+    display: flex;
+
+    border-radius: 5px;
+    padding: 3%;
 
     background-color: #dcebfa;
-    border-radius: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
+
 
 }
 
 .middlepart {
-    width: 25%;
-    min-width: 200px;
-    height: available;
-    min-height: 400px;
-
-    background-color: #f5dce5;
+    display: flex;
     border-radius: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 3%;
+    background-color: #f5dce5;
+
 }
 
 .rightpart {
-    width: 25%;
-    min-width: 200px;
-    height: available;
-    min-height: 400px;
+    display: flex;
 
-    background-color: #ffcccc;
     border-radius: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 3%;
+    background-color: #ffcccc;
 }
 
-.banner {
-    background-image: url(images/shape-1.png);
-    background-repeat: no-repeat;
-    size-adjust: 20px;
+.rightpart img {
+    size: 2px;
+    padding-left: 1%;
 }
+
+.middlepart img {
+    size: 2px;
+    padding-left: 1%;
+}
+
+.leftpart img {
+    size: 2px;
+    padding-left: 1%;
+}
+
 
 .one img {
     width: 40%;
@@ -103,4 +103,21 @@ section {
     padding-left: 20%;
 
     padding-right: 10%;
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(4, 4, 31);
+    color: white;
+}
+
+.tomato-color {
+    color: coral;
+
+}
+
+.my-mission {
+    padding: 5px;
+
 }
