@@ -12,11 +12,12 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 1.5%;
+    padding-left: 10%;
 }
 
 .half-width img {
@@ -32,4 +33,74 @@ section {
     font-weight: 700;
     border-radius: 5px;
 
+}
+
+
+
+.leftpart {
+    width: 25%;
+    min-width: 200px;
+    height: available;
+    min-height: 400px;
+
+    background-color: #dcebfa;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.middlepart {
+    width: 25%;
+    min-width: 200px;
+    height: available;
+    min-height: 400px;
+
+    background-color: #f5dce5;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.rightpart {
+    width: 25%;
+    min-width: 200px;
+    height: available;
+    min-height: 400px;
+
+    background-color: #ffcccc;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.banner {
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    size-adjust: 20px;
+}
+
+.one img {
+    width: 40%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.two {
+    width: 70%;
+    padding-left: 0.5%;
+    padding-right: 5%;
+}
+
+.three {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 0.5%;
+}
+
+.four img {
+    width: 40%;
+    padding-left: 20%;
+
+    padding-right: 10%;
 }
